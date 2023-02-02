@@ -5,22 +5,17 @@ import jakarta.persistence.Entity;
 
 @Entity
 @DiscriminatorValue("WEIGHT")
-public class WeightRecord extends Record {
+public class Weight extends Record {
 
-	public WeightRecord() {
-		super();
+	public Weight() {
 	}
-	
-	
-	public WeightRecord(String value) {
+
+	public Weight(String value) {
 		super(value);
 	}
 
-
-
-
 	@Override
 	public String toString() {
-		return "WeightRecord: " + super.toString();
+		return "Weight - " + super.toString();
 	}
 }

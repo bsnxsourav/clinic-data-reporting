@@ -5,20 +5,16 @@ import jakarta.persistence.Entity;
 
 @Entity
 @DiscriminatorValue("BP")
-public class BloodPressureRecord extends Record {
+public class BPRecord extends Record {
 
-	public BloodPressureRecord() {
-		super();
-	}
-	
-	
-	public BloodPressureRecord(String value) {
+	public BPRecord() {}
+
+	public BPRecord(String value) {
 		super(value);
 	}
 
-
 	@Override
 	public String toString() {
-		return "BloodPressureRecord: " + super.toString();
+		return "BPRecord - " + super.toString();
 	}
 }
