@@ -117,15 +117,21 @@ class ClinicalDataReportingSystemApplicationTests {
 	public void sampleBPData() {
 		logger.info("Start sampleBPData()");
 		Integer id = 1;
-		patientService.addBPRecord(id, "750");
-		patientService.addBPRecord(id, "750");
-		patientService.addBPRecord(id, "740");
-		patientService.addBPRecord(id, "755");
-		patientService.addBPRecord(id, "760");
-		patientService.addBPRecord(id, "760");
-		patientService.addBPRecord(id, "770");
-		patientService.addBPRecord(id, "750");
-		patientService.addBPRecord(id, "760");
+		patientService.addBPRecord(id, "120");
+	    patientService.addBPRecord(id, "126");
+	    patientService.addBPRecord(id, "124");
+	    patientService.addBPRecord(id, "124");
+	    patientService.addBPRecord(id, "131");
+	    patientService.addBPRecord(id, "137");
+	    patientService.addBPRecord(id, "145");
+	    patientService.addBPRecord(id, "160");
+	    patientService.addBPRecord(id, "190");
+	    patientService.addBPRecord(id, "200");
+	    patientService.addBPRecord(id, "170");
+	    patientService.addBPRecord(id, "150");
+	    patientService.addBPRecord(id, "140");
+	    patientService.addBPRecord(id, "125");
+	    patientService.addBPRecord(id, "120");
 		logger.info("End sampleBPData()");
 	}
 	
